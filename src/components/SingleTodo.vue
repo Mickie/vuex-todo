@@ -1,7 +1,7 @@
 <template>
     <div>
-        <li @click="toggleState(data)">
-            {{data.name}}
+        <li >
+            <span @click="toggleState(data)">{{data.name}}</span>
             <Button type="ghost" shape="circle" size="small" @click="remove(data)">x</Button>
         </li>
 
